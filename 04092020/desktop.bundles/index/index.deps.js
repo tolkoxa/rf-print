@@ -1,0 +1,877 @@
+exports.deps = [
+    {
+        "block": "page"
+    },
+    {
+        "block": "i-bem-dom"
+    },
+    {
+        "block": "inherit"
+    },
+    {
+        "block": "jquery"
+    },
+    {
+        "block": "loader"
+    },
+    {
+        "block": "loader",
+        "mod": "type"
+    },
+    {
+        "block": "jquery",
+        "elem": "config"
+    },
+    {
+        "block": "ua"
+    },
+    {
+        "block": "objects"
+    },
+    {
+        "block": "functions"
+    },
+    {
+        "block": "dom"
+    },
+    {
+        "block": "i-bem-dom",
+        "elem": "init"
+    },
+    {
+        "block": "i-bem"
+    },
+    {
+        "block": "i-bem",
+        "elem": "internal"
+    },
+    {
+        "block": "identify"
+    },
+    {
+        "block": "next-tick"
+    },
+    {
+        "block": "i-bem-dom",
+        "elem": "events"
+    },
+    {
+        "block": "i-bem-dom",
+        "elem": "collection"
+    },
+    {
+        "block": "i-bem",
+        "elem": "collection"
+    },
+    {
+        "block": "i-bem-dom",
+        "elem": "events",
+        "mod": "type"
+    },
+    {
+        "block": "i-bem-dom",
+        "elem": "events",
+        "mod": "type",
+        "val": "bem"
+    },
+    {
+        "block": "events"
+    },
+    {
+        "block": "i-bem-dom",
+        "elem": "init",
+        "mod": "auto"
+    },
+    {
+        "block": "page",
+        "elem": "css"
+    },
+    {
+        "block": "page",
+        "elem": "js"
+    },
+    {
+        "block": "page",
+        "mod": "view"
+    },
+    {
+        "block": "header"
+    },
+    {
+        "block": "image"
+    },
+    {
+        "block": "icon"
+    },
+    {
+        "block": "logo"
+    },
+    {
+        "block": "text"
+    },
+    {
+        "block": "text",
+        "mod": "center"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "envelope-o"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "phone"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "calculator"
+    },
+    {
+        "block": "body"
+    },
+    {
+        "block": "footer"
+    },
+    {
+        "block": "dropdown"
+    },
+    {
+        "block": "dropdown",
+        "elem": "switcher"
+    },
+    {
+        "block": "popup"
+    },
+    {
+        "block": "functions",
+        "elem": "throttle"
+    },
+    {
+        "block": "popup",
+        "mod": "visible"
+    },
+    {
+        "block": "popup",
+        "mod": "autoclosable"
+    },
+    {
+        "block": "popup",
+        "mod": "target"
+    },
+    {
+        "block": "z-index-group"
+    },
+    {
+        "block": "jquery",
+        "elem": "event"
+    },
+    {
+        "block": "jquery",
+        "elem": "event",
+        "mod": "type"
+    },
+    {
+        "block": "jquery",
+        "elem": "event",
+        "mod": "type",
+        "val": "pointerclick"
+    },
+    {
+        "block": "jquery",
+        "elem": "event",
+        "mod": "type",
+        "val": "pointernative"
+    },
+    {
+        "block": "keyboard",
+        "elem": "codes"
+    },
+    {
+        "block": "dropdown",
+        "mod": "switcher"
+    },
+    {
+        "block": "dropdown",
+        "elem": "switcher",
+        "mod": "switcher"
+    },
+    {
+        "block": "link"
+    },
+    {
+        "block": "link",
+        "mod": "disabled"
+    },
+    {
+        "block": "control"
+    },
+    {
+        "block": "link",
+        "mod": "pseudo"
+    },
+    {
+        "block": "dropdown",
+        "mod": "theme"
+    },
+    {
+        "block": "popup",
+        "mod": "theme"
+    },
+    {
+        "block": "dropdown",
+        "mod": "switcher",
+        "val": "button"
+    },
+    {
+        "block": "dropdown",
+        "elem": "switcher",
+        "mod": "switcher",
+        "val": "button"
+    },
+    {
+        "block": "button"
+    },
+    {
+        "block": "button",
+        "mod": "focused"
+    },
+    {
+        "block": "button",
+        "mod": "hovered"
+    },
+    {
+        "block": "button",
+        "mod": "disabled"
+    },
+    {
+        "block": "button",
+        "mod": "pressed"
+    },
+    {
+        "block": "button",
+        "elem": "text"
+    },
+    {
+        "block": "dropdown",
+        "mod": "size"
+    },
+    {
+        "block": "ul"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "chevron-down"
+    },
+    {
+        "block": "page",
+        "mod": "theme"
+    },
+    {
+        "block": "page",
+        "mod": "theme",
+        "val": "rfprint"
+    },
+    {
+        "block": "page",
+        "elem": "meta"
+    },
+    {
+        "block": "menu-top"
+    },
+    {
+        "block": "page_hide_mob"
+    },
+    {
+        "block": "cover"
+    },
+    {
+        "block": "libs"
+    },
+    {
+        "block": "how-working"
+    },
+    {
+        "block": "title"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "commenting-o"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "thumbs-o-up"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "info-circle"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "user"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "file-text-o"
+    },
+    {
+        "block": "form"
+    },
+    {
+        "block": "mask"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "arrow-right"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "question-circle"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "paper-plane-o"
+    },
+    {
+        "block": "textarea"
+    },
+    {
+        "block": "textarea",
+        "mod": "disabled"
+    },
+    {
+        "block": "textarea",
+        "mod": "focused"
+    },
+    {
+        "block": "input"
+    },
+    {
+        "block": "input",
+        "mod": "disabled"
+    },
+    {
+        "block": "input",
+        "mod": "focused"
+    },
+    {
+        "block": "input",
+        "elem": "box"
+    },
+    {
+        "block": "input",
+        "elem": "control"
+    },
+    {
+        "block": "tick"
+    },
+    {
+        "block": "idle"
+    },
+    {
+        "block": "select"
+    },
+    {
+        "block": "select",
+        "mod": "focused"
+    },
+    {
+        "block": "select",
+        "elem": "control"
+    },
+    {
+        "block": "select",
+        "elem": "button"
+    },
+    {
+        "block": "select",
+        "elem": "menu"
+    },
+    {
+        "block": "menu"
+    },
+    {
+        "block": "menu",
+        "mod": "focused"
+    },
+    {
+        "block": "menu",
+        "elem": "item"
+    },
+    {
+        "block": "menu",
+        "elem": "group"
+    },
+    {
+        "block": "menu",
+        "elem": "group-title"
+    },
+    {
+        "block": "strings",
+        "elem": "escape"
+    },
+    {
+        "block": "select",
+        "mod": "mode"
+    },
+    {
+        "block": "menu",
+        "mod": "mode"
+    },
+    {
+        "block": "select",
+        "mod": "theme"
+    },
+    {
+        "block": "button",
+        "mod": "theme"
+    },
+    {
+        "block": "menu",
+        "mod": "theme"
+    },
+    {
+        "block": "menu",
+        "elem": "item",
+        "mod": "theme"
+    },
+    {
+        "block": "select",
+        "mod": "size"
+    },
+    {
+        "block": "i-bem",
+        "elem": "dom"
+    },
+    {
+        "block": "i-bem",
+        "elem": "i18n"
+    },
+    {
+        "block": "attach",
+        "elem": "button"
+    },
+    {
+        "block": "attach",
+        "elem": "control"
+    },
+    {
+        "block": "attach",
+        "elem": "no-file"
+    },
+    {
+        "block": "textarea",
+        "mod": "theme"
+    },
+    {
+        "block": "textarea",
+        "mod": "size"
+    },
+    {
+        "block": "checkbox"
+    },
+    {
+        "block": "checkbox",
+        "mod": "disabled"
+    },
+    {
+        "block": "checkbox",
+        "mod": "focused"
+    },
+    {
+        "block": "checkbox",
+        "mod": "checked"
+    },
+    {
+        "block": "checkbox",
+        "elem": "box"
+    },
+    {
+        "block": "checkbox",
+        "elem": "control"
+    },
+    {
+        "block": "checkbox",
+        "elem": "text"
+    },
+    {
+        "block": "table"
+    },
+    {
+        "block": "tabs"
+    },
+    {
+        "block": "form-fast"
+    },
+    {
+        "block": "choose-us"
+    },
+    {
+        "block": "services"
+    },
+    {
+        "block": "calculator"
+    },
+    {
+        "block": "select",
+        "mod": "mode",
+        "val": "check"
+    },
+    {
+        "block": "menu",
+        "mod": "mode",
+        "val": "check"
+    },
+    {
+        "block": "select",
+        "mod": "mode",
+        "val": "radio-check"
+    },
+    {
+        "block": "menu",
+        "mod": "mode",
+        "val": "radio-check"
+    },
+    {
+        "block": "checkbox-group"
+    },
+    {
+        "block": "checkbox-group",
+        "mod": "theme"
+    },
+    {
+        "block": "checkbox",
+        "mod": "theme"
+    },
+    {
+        "block": "button",
+        "mod": "togglable"
+    },
+    {
+        "block": "checkbox-group",
+        "mod": "size"
+    },
+    {
+        "block": "checkbox-group",
+        "mod": "type"
+    },
+    {
+        "block": "description"
+    },
+    {
+        "block": "our-clients"
+    },
+    {
+        "block": "our-work"
+    },
+    {
+        "block": "social"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "twitter"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "youtube-play"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "instagram"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "facebook"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "odnoklassniki"
+    },
+    {
+        "block": "payment-methods"
+    },
+    {
+        "block": "printing-process"
+    },
+    {
+        "block": "useful-info"
+    },
+    {
+        "block": "bottom-form"
+    },
+    {
+        "block": "loader",
+        "mod": "type",
+        "val": "js"
+    },
+    {
+        "block": "i-bem-dom",
+        "elem": "events",
+        "mod": "type",
+        "val": "dom"
+    },
+    {
+        "block": "i-bem-dom",
+        "elem": "init",
+        "mod": "auto",
+        "val": true
+    },
+    {
+        "block": "page",
+        "mod": "view",
+        "val": "404"
+    },
+    {
+        "block": "text",
+        "mod": "center",
+        "val": "center"
+    },
+    {
+        "block": "icon",
+        "mod": "glyph",
+        "val": "bars"
+    },
+    {
+        "block": "dropdown",
+        "mod": "switcher",
+        "val": "link"
+    },
+    {
+        "block": "popup",
+        "mod": "autoclosable",
+        "val": true
+    },
+    {
+        "block": "popup",
+        "mod": "visible",
+        "val": true
+    },
+    {
+        "block": "popup",
+        "mod": "target",
+        "val": "anchor"
+    },
+    {
+        "block": "jquery",
+        "elem": "event",
+        "mod": "type",
+        "val": "pointer"
+    },
+    {
+        "block": "jquery",
+        "elem": "event",
+        "mod": "type",
+        "val": "pointerpressrelease"
+    },
+    {
+        "block": "dropdown",
+        "elem": "switcher",
+        "mod": "switcher",
+        "val": "link"
+    },
+    {
+        "block": "link",
+        "mod": "pseudo",
+        "val": true
+    },
+    {
+        "block": "dropdown",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "popup",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "button",
+        "mod": "focused",
+        "val": true
+    },
+    {
+        "block": "button",
+        "mod": "hovered",
+        "val": true
+    },
+    {
+        "block": "button",
+        "mod": "disabled",
+        "val": true
+    },
+    {
+        "block": "button",
+        "mod": "pressed",
+        "val": true
+    },
+    {
+        "block": "dropdown",
+        "mod": "size",
+        "val": "m"
+    },
+    {
+        "block": "textarea",
+        "mod": "disabled",
+        "val": true
+    },
+    {
+        "block": "textarea",
+        "mod": "focused",
+        "val": true
+    },
+    {
+        "block": "input",
+        "mod": "disabled",
+        "val": true
+    },
+    {
+        "block": "input",
+        "mod": "focused",
+        "val": true
+    },
+    {
+        "block": "select",
+        "mod": "focused",
+        "val": true
+    },
+    {
+        "block": "menu",
+        "mod": "focused",
+        "val": true
+    },
+    {
+        "block": "select",
+        "mod": "mode",
+        "val": "radio"
+    },
+    {
+        "block": "menu",
+        "mod": "mode",
+        "val": "radio"
+    },
+    {
+        "block": "button",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "menu",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "menu",
+        "elem": "item",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "select",
+        "mod": "size",
+        "val": "m"
+    },
+    {
+        "block": "attach"
+    },
+    {
+        "block": "attach",
+        "mod": "theme"
+    },
+    {
+        "block": "attach",
+        "mod": "size"
+    },
+    {
+        "block": "textarea",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "textarea",
+        "mod": "size",
+        "val": "m"
+    },
+    {
+        "block": "checkbox",
+        "mod": "disabled",
+        "val": true
+    },
+    {
+        "block": "checkbox",
+        "mod": "focused",
+        "val": true
+    },
+    {
+        "block": "checkbox",
+        "mod": "checked",
+        "val": true
+    },
+    {
+        "block": "attach",
+        "mod": "disabled"
+    },
+    {
+        "block": "checkbox-group",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "button",
+        "mod": "togglable",
+        "val": "check"
+    },
+    {
+        "block": "checkbox-group",
+        "mod": "size",
+        "val": "m"
+    },
+    {
+        "block": "checkbox-group",
+        "mod": "type",
+        "val": "line"
+    },
+    {
+        "block": "select",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "attach",
+        "mod": "theme",
+        "val": "islands"
+    },
+    {
+        "block": "attach",
+        "mod": "size",
+        "val": "m"
+    },
+    {
+        "block": "attach",
+        "mod": "disabled",
+        "val": true
+    },
+    {
+        "block": "checkbox",
+        "mod": "theme",
+        "val": "islands"
+    }
+];
