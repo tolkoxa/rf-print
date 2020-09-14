@@ -1,0 +1,6 @@
+.about {
+  &__info{
+    background: #fff;
+    padding: 1px 30px;
+  }
+}
