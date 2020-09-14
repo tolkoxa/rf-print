@@ -1,0 +1,26 @@
+.block-shadow {
+    width: 250px;
+    /* height: 250px; */
+    display: flex;
+    /* justify-content: center; */
+    margin: 0 0 0 0;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 10px 5px 5px 2px rgb(235, 235, 235);
+    border: 1px solid rgb(235, 235, 235);
+    &_flex-column {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    &_flex-row {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    &_center-center {
+        justify-content: center;
+        align-items: center;
+    }
+}

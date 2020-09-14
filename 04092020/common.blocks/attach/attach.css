@@ -1,0 +1,19 @@
+.attach {
+  &__control{
+    cursor: pointer!important;
+  }
+    &_theme{
+      &_islands{
+        font-family: 'Futura PT', sans-serif!important;
+        font-style: normal;
+        .button{
+          background: none;
+          color: #419fe1;
+          cursor: pointer;
+        }
+        .button__text{
+          margin: 0 22px!important;
+        }
+      }
+    }
+}
