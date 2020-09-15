@@ -1,0 +1,39 @@
+.input {
+    &_theme {
+        &_rfprint {
+            input {
+                outline: none;
+                border-radius: 20px;
+                padding: 10px 20px;
+                font-size: 1rem;
+                border: 1px solid #d9d9d9;
+                color: #777;
+                margin-bottom: 10px;
+            }
+        }
+    }
+    &__form {
+        width: 400px;
+        height: 20px;
+        border-radius: 6px;
+        outline: none;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: Roboto;
+        color: #777;
+        padding: 15px;
+        background-color: #fff;
+        border: none;
+    }
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #a4a4a4;
+}
+
+input[type=file] {
+    outline: 0;
+    color: #419fe1;
+    padding: 15px;
+}

@@ -1,0 +1,17 @@
+.image {
+    /* &_padding_10 {
+        padding: 10px;
+    } */
+    &_padding-right_15 {
+        padding-right: 15px
+    }
+    &_padding-right_10 {
+        padding-right: 10px
+    }
+    &_padding-botom_10 {
+        padding-bottom: 10px;
+    }
+    &_padding-botom_20 {
+        padding-bottom: 20px;
+    }
+}

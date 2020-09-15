@@ -1,0 +1,47 @@
+.form-fast {
+  background: #419fe1;
+  border-bottom: 1px solid #f1f1f1;
+  &__wrapp{
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 50px 0 0px 0px;
+  }
+  &__content{
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 20px 0px;
+    }
+  }
+  &__section1{
+    width: 237px;
+    margin: 0 10px 0 0;
+    @media screen and (max-width: 640px) {
+      margin: 0 0 5px 0;
+      width: 100%;
+      text-align: center;
+      input{
+        width: 220px;
+      }
+    }
+  }
+  &__section2{}
+  &__section3{
+    width: 290px;
+    padding: 0 0 0 10px;
+    @media screen and (max-width: 640px) {
+      text-align: center;
+      padding:10px 0;
+      button{
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

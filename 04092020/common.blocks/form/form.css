@@ -1,0 +1,47 @@
+.form {
+    &__wrapp{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: flex-start;
+      align-content: center;
+      padding: 25px;
+    }
+
+    &__relContainer{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-start;
+      align-content: flex-start;
+      label{
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        align-content: flex-start;
+        span.req{
+          color:red;
+          padding: 0 5px;
+        }
+        .button__text{
+          margin: 0px!important;
+        }
+      }
+    }
+    &__buttons{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      align-content: center;
+      .checkbox{
+        padding: 20px 0;
+      }
+    }
+}

@@ -1,0 +1,35 @@
+.how-working {
+    &__swiper{
+      padding: 0 0 20px;
+    }
+    &__swiper-pagination.swiper-pagination-progressbar{
+      top: auto;
+      bottom: 0px;
+      @media screen and (min-width: 992px) {
+        display: none;
+      }
+    }
+
+    .swiper-wrapper{
+      padding-top: 20px;
+      @media screen and (min-width: 992px) {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+      }
+    }
+    .swiper-slide{
+      position: relative;
+      background: #fff;
+      height: 100px;
+      padding: 0% 1% 4% 1%;
+      @media screen and (min-width: 992px) {
+        margin: 1%;
+        width: 20%;
+      }
+    }
+
+}

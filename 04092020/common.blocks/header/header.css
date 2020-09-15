@@ -1,0 +1,134 @@
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F0F0F0;
+    margin: 0 0 0 0;
+    &__container {
+        width: 1300px;
+        margin: 0 0 0 0;
+        padding: 15px 0 15px 15px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fff;
+        &_border_radius {
+            border-radius: 10px;
+        }
+    }
+    &__logo {
+        width: 150px;
+        /* padding: 15px 0px 17px 20px; */
+    }
+    &__header-text {
+        margin: 0 0 0 0;
+        /* padding: 0px 17px 0px 20px; */
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: Roboto;
+        font-weight: 400;
+        &_padding-right_15 {
+            padding-right: 15px;
+        }
+        &_padding-left_20 {
+            padding-left: 20px;
+        }
+        &_height_100 {
+            height: 100%;
+        }
+        &_width_300 {
+            width: 300px;
+        }
+        &_width_260 {
+            width: 260px
+        }
+    }
+    &__mode {
+        width: 250px;
+        height: 100%;
+        margin: 0 0 0 0;
+        /* padding: 0px 17px 0px 20px; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    /* для мобильного */
+    @media screen and (max-width: 640px) {
+        background: #419fe1;
+        position: fixed;
+        width: 100%;
+        z-index: 9998;
+        margin-left: -1%;
+        margin-top: -85px;
+        /* в паре с page */
+    }
+    /* для pc */
+    @media screen and (min-width: 640px) {
+        /* padding-bottom: 10px; */
+    }
+    &__wrapp {
+        max-width: 1190px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: stretch;
+        align-content: stretch;
+        &_background_white {
+            background-color: #fff;
+        }
+    }
+    &_border-right {
+        @media screen and (max-width: 640px) {
+            border-right: 1px solid #3eb5f1;
+            margin-right: -1px!important;
+        }
+    }
+    &_flex_content-row-center {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+    }
+    /* &__logo{} */
+    /* &__address{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  &__email{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+  }
+  &__phone{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: stretch;
+  } */
+    &__backgroundTop {
+        background-color: #ffffff;
+    }
+    &__text {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #757575;
+    }
+}

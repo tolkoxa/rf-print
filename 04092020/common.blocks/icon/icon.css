@@ -1,0 +1,66 @@
+.icon {
+  &_size_xs{
+    width: 10px;
+    height: 10px;
+  }
+  &_size_q{
+    width: 20px!important;
+  }
+  &_size_s{
+    width: 20px;
+    height: 20px;
+  }
+  &_size_m{
+    width: 45px;
+    height: 45px;
+  }
+  &_size_xl{
+    width: 50px;
+    height: 50px;
+  }
+  &_size_4xl-facebook{
+    width: 55px;
+    height: 85px;
+  }
+  &_size_4xl{
+    width: 85px;
+    height: 85px;
+  }
+  &_margin-svg_off{
+    svg{
+      margin: 0px;
+    }
+  }
+  &_mr-r_15{
+    margin-right:15px;
+  }
+  &_mr-r_5{
+    margin-right:5px;
+  }
+  &_color_white{
+    color:#fff;
+  }
+  &_color_black{
+    color:#000;
+  }
+  &_color_red{
+    color:#ff0000;
+  }
+  &_color_gray{
+    color:#b6b6b6;
+  }
+  &_margin_correct{
+    margin-left: 5px;
+    svg{
+      margin: -5.75em 0 -5em;
+    }
+  }
+  &_blue-carton{
+    padding: 10px 15px 15px 15px;
+    background: #419fe1;
+    border-radius: 12px;
+    margin-top: -30px;
+    width: 30px;
+    height: 30px;
+  }
+}
