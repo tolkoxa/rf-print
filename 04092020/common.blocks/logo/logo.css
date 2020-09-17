@@ -1,0 +1,8 @@
+.logo {
+    &_bg_white {
+        /* background: #fff; */
+    }
+    &_margin_10px {
+        /* margin: 10px; */
+    }
+}

@@ -1,0 +1,42 @@
+.link {
+    &_padding_20 {
+        padding: 20px;
+    }
+    &_color_white {
+        color: #fff!important;
+    }
+    &_color_black {
+        color: #000!important;
+    }
+    &_color_blue {
+        color: #419fe1!important;
+    }
+    &_position_relateve {
+        position: relative;
+    }
+    &_flex_cente-center {
+        display: flex!important;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    &_center {
+        display: block;
+        text-align: center;
+    }
+    &_decoration_none {
+        text-decoration: none;
+    }
+    /* TODO: Убрать, т.к. используется для всех ссылок на сайте */
+    &_hovered {}
+    &_hovered.last {
+        border-radius: 0 0 20px 20px;
+    }
+}
+
+.link.active {
+    background: #d55953;
+    color: #fff!important;
+}

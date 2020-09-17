@@ -1,0 +1,15 @@
+.map {
+  width: 450px;
+  height: 450px;
+  @media screen and (max-width: 992px) {
+    width: 100%;
+  }
+  &_float_right{
+    float: right;
+    margin-left:20px;
+    @media screen and (max-width: 992px) {
+      float: none;
+      margin-left: 0px;
+    }
+  }
+}
