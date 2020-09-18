@@ -1,0 +1,48 @@
+.payment-methods {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F0F0F0;
+    margin: 0 0 0 0;
+    padding: 50px 0 0 0;
+    &__container {
+        width: 1300px;
+        /* height: 385px; */
+        margin: 0 0 0 0;
+        padding: 15px 15px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+        background-color: #fff;
+        &_border_radius {
+            border-radius: 10px;
+        }
+    }
+    &__items {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 98%;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 10px 0 10px 0;
+    }
+    &__title {
+        width: 100%;
+        padding: 0 0 30px 50px;
+    }
+    &__pay-block {
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+        border: 1px solid #C5C5C5;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &_padding-bottom_20 {
+        padding-bottom: 20px;
+    }
+}

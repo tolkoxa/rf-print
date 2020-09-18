@@ -1,0 +1,7 @@
+.popup {
+    &_theme{
+      &_islands{
+        padding: 3px 5px;
+      }
+    }
+}
